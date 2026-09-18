@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Technology & Specs",
+  "headline": "Built for AdOps and Integration Leads",
+  "subheadline": "Exact protocol support, formats, video specs, and macros for CTV mediation.",
+  "cta": { "label": "View sellers.json", "href": "/sellers.json" },
+  "specs": [
+    {
+      "label": "Protocol Support",
+      "value": "OpenRTB 2.5, OpenRTB 3.0, VAST 2.0 / 3.0 / 4.0 / 4.2, VMAP 1.0"
+    },
+    {
+      "label": "Supported Formats",
+      "value": "CTV Pre-Roll, Mid-Roll, Dynamic Ad Pods, HD/4K In-App Video"
+    },
+    {
+      "label": "Video Specifications",
+      "value": "Bitrate: 15–30 Mbps | Codec: H.264/AAC | Aspect Ratio: 16:9 | Frame Rate: 30 fps"
+    },
+    {
+      "label": "Macros Supported",
+      "value": "[CB], [TIMESTAMP], [DEVICE_ID], [IP], [LAT], [LON], [APP_BUNDLE]"
+    }
+  ]
+}

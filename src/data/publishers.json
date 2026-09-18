@@ -1,0 +1,55 @@
+{
+  "eyebrow": "For Publishers",
+  "headline": "Maximize Your CTV & Video Monetization",
+  "subheadline": "Seamless OpenRTB routing, flexible floor price controls, and low-latency integration designed specifically for FAST channels and streaming apps.",
+  "cta": { "label": "Become a Partner", "href": "/contact?role=supply" },
+  "heroImage": "/images/mira/mira-supply.jpg",
+  "features": [
+    {
+      "title": "Ultra-Low Latency Routing",
+      "body": "S2S endpoints process bid transactions in under 15 milliseconds, minimizing buffering and preventing ad timeout drops."
+    },
+    {
+      "title": "Yield & Floor Optimization",
+      "body": "Protect inventory value using granular floor pricing rules by country, device environment, and placement type."
+    },
+    {
+      "title": "SSAI & Ad Podding Ready",
+      "body": "Fully compatible with Server-Side Ad Insertion (SSAI) protocols and dynamic VMAP ad podding for smooth, broadcast-quality ad breaks."
+    },
+    {
+      "title": "Transparent Payments",
+      "body": "Predictable settlement terms backed by standardized IAB impression verification and continuous reporting access."
+    }
+  ],
+  "integrations": [
+    "OpenRTB 2.5",
+    "OpenRTB 3.0",
+    "VAST 2.0 – 4.2",
+    "VMAP Dynamic Pods",
+    "S2S Endpoints"
+  ],
+  "stack": {
+    "eyebrow": "Integration surface",
+    "headline": "What your AdOps team plugs into",
+    "rows": [
+      { "label": "Protocols", "value": "OpenRTB 2.5 / 3.0 · VAST 2.0–4.2 · VMAP 1.0" },
+      { "label": "Insertion", "value": "Client-side tags · Server-side ad insertion (SSAI)" },
+      { "label": "Controls", "value": "Floor by country · device · placement type" },
+      { "label": "Reporting", "value": "IAB-aligned impression verification · continuous access" }
+    ]
+  },
+  "process": {
+    "eyebrow": "How supply onboards",
+    "steps": [
+      { "title": "Share inventory profile", "body": "App bundles, FAST channels, monthly volume, and geo mix." },
+      { "title": "Wire the endpoint", "body": "VAST tag or S2S OpenRTB with floor rules applied." },
+      { "title": "Go live cleanly", "body": "Demand fills against transparent paths listed in sellers.json." }
+    ]
+  },
+  "mutedNotes": [
+    "Built for lean mediation — no heavy publisher portal required to start.",
+    "SSAI and dynamic pods are first-class, not bolted on.",
+    "Floor logic protects yield before timeouts kill the opportunity."
+  ]
+}

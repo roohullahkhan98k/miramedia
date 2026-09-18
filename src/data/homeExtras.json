@@ -1,0 +1,41 @@
+{
+  "paths": {
+    "eyebrow": "Choose your path",
+    "headline": "Two doors. One clean mediation layer.",
+    "items": [
+      {
+        "role": "Demand",
+        "title": "Connect Demand",
+        "body": "DSP desks and agencies get direct CTV & OEM inventory with bundle-level transparency and pre-filtered traffic.",
+        "points": [
+          "Bundle ID on every bid",
+          "PMP by region & genre",
+          "IVT screened pre-bid"
+        ],
+        "cta": { "label": "Launch Campaign", "href": "/advertisers" }
+      },
+      {
+        "role": "Supply",
+        "title": "Monetize Supply",
+        "body": "FAST channels and streaming apps plug into global demand with low-latency OpenRTB and SSAI-ready VAST.",
+        "points": [
+          "Sub-15ms S2S routing",
+          "Floor controls by geo",
+          "VMAP dynamic pods"
+        ],
+        "cta": { "label": "Become a Partner", "href": "/publishers" }
+      }
+    ]
+  },
+  "capabilities": {
+    "eyebrow": "Built for AdOps",
+    "items": [
+      { "label": "OpenRTB", "detail": "2.5 / 3.0" },
+      { "label": "VAST", "detail": "2.0 – 4.2" },
+      { "label": "VMAP", "detail": "Dynamic pods" },
+      { "label": "SSAI", "detail": "Broadcast-ready" },
+      { "label": "sellers.json", "detail": "IAB path clarity" },
+      { "label": "IVT filter", "detail": "Pre-bid quality" }
+    ]
+  }
+}

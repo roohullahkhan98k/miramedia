@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Contact",
+  "headline": "Partner with Mira Media",
+  "subheadline": "Get in touch with our team to onboard your supply or request programmatic demand endpoints.",
+  "email": "partners@miramedia.com",
+  "roles": [
+    { "id": "supply", "label": "Publisher / Supply" },
+    { "id": "demand", "label": "Advertiser / DSP" }
+  ],
+  "integrationTypes": [
+    "OpenRTB 2.5",
+    "OpenRTB 3.0",
+    "VAST Tag",
+    "S2S Endpoint",
+    "Private Marketplace (PMP)"
+  ],
+  "volumeOptions": [
+    "< 10M Imps",
+    "10M–100M Imps",
+    "100M–1B Imps",
+    "1B+ Imps"
+  ]
+}

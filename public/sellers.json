@@ -1,0 +1,26 @@
+{
+  "seller_location": "US",
+  "version": "1.0",
+  "identifiers": [
+    {
+      "name": "TAG",
+      "value": "123456"
+    }
+  ],
+  "sellers": [
+    {
+      "seller_id": "MM-SUPPLY-001",
+      "name": "Example CTV Network / Publisher Name",
+      "seller_type": "PUBLISHER",
+      "domain": "examplectv.com",
+      "is_passthrough": false
+    },
+    {
+      "seller_id": "MM-INTERMEDIARY-002",
+      "name": "Partner Supply Exchange",
+      "seller_type": "INTERMEDIARY",
+      "domain": "partnersexchange.com",
+      "is_passthrough": false
+    }
+  ]
+}

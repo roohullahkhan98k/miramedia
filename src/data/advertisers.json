@@ -1,0 +1,48 @@
+{
+  "eyebrow": "For Advertisers",
+  "headline": "Own the Big Screen with Targeted CTV Advertising",
+  "subheadline": "Amplify your brand message with programmatic technology that reaches the right audience and delivers transparent, measurable impact.",
+  "cta": { "label": "Request DSP Endpoint", "href": "/contact?role=demand" },
+  "heroImage": "/images/mira/mira-demand.jpg",
+  "benefits": [
+    {
+      "title": "Direct CTV Reach",
+      "body": "Access premium inventory across major Smart TV operating systems, including Roku, Amazon Fire TV, Apple TV, Samsung Tizen, LG webOS, and Android TV."
+    },
+    {
+      "title": "100% App & Bundle Transparency",
+      "body": "Gain full visibility into where your ads run with verified app bundle IDs, channel categories, and content metadata on every bid request."
+    },
+    {
+      "title": "Pre-Bid Quality Control",
+      "body": "Guard your budget with automated pre-bid filtering that eliminates non-human traffic, device spoofing, and duplicate bid calls before you spend."
+    },
+    {
+      "title": "Curated PMP Deals",
+      "body": "Execute private marketplace deals tailored by geographic region, device tier, or streaming content genre across US, EMEA, and LATAM."
+    }
+  ],
+  "inventory": {
+    "eyebrow": "What you buy",
+    "headline": "Inventory shape for trading desks",
+    "rows": [
+      { "label": "Formats", "value": "CTV Pre-Roll · Mid-Roll · Dynamic Ad Pods · HD/4K In-App" },
+      { "label": "Environments", "value": "Roku · Fire TV · Apple TV · Android TV · Tizen · webOS" },
+      { "label": "Deal types", "value": "Open auction · Preferred deals · Private marketplace" },
+      { "label": "Geo focus", "value": "US · EMEA · LATAM packages by genre & device tier" }
+    ]
+  },
+  "process": {
+    "eyebrow": "How demand onboards",
+    "steps": [
+      { "title": "Share endpoint needs", "body": "Tell us OpenRTB version, seat IDs, and target GEOs." },
+      { "title": "Receive clean supply", "body": "We map curated CTV paths with bundle transparency enabled." },
+      { "title": "Trade with clarity", "body": "sellers.json + app-ads.txt alignment keeps path verification simple." }
+    ]
+  },
+  "mutedNotes": [
+    "No publisher login wall on the site — partnership starts through the dual-funnel contact form.",
+    "IVT filtering happens before bids hit your DSP, not after spend leaks.",
+    "PMP packaging can be structured by content genre, OEM, or region."
+  ]
+}

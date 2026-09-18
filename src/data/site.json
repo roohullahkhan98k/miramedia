@@ -1,0 +1,138 @@
+{
+  "brand": "Mira Media",
+  "email": "partners@miramedia.com",
+  "tagline": "Unified Advertising Platform Built for CTV",
+  "description": "We empower brands, agencies, and streaming publishers to reach precision audiences and maximize revenue across Connected TV (CTV) and dynamic video environments.",
+  "nav": [
+    { "title": "Home", "link": "/", "hover": "Start here" },
+    { "title": "Advertisers", "link": "/advertisers", "hover": "Buy CTV" },
+    { "title": "Publishers", "link": "/publishers", "hover": "Sell inventory" },
+    { "title": "About", "link": "/about", "hover": "Our story" },
+    { "title": "Contact", "link": "/contact", "hover": "Let's talk" }
+  ],
+  "navCta": "Partner With Us",
+  "footerNav": [
+    { "title": "Home", "link": "/" },
+    { "title": "Advertisers", "link": "/advertisers" },
+    { "title": "Publishers", "link": "/publishers" },
+    { "title": "About", "link": "/about" },
+    { "title": "Contact", "link": "/contact" }
+  ],
+  "footerResources": [
+    { "title": "Technology", "link": "/technology" },
+    { "title": "Brand Safety", "link": "/brand-safety" },
+    { "title": "sellers.json", "link": "/sellers.json" }
+  ],
+  "legalLinks": [
+    { "title": "Terms of Service", "link": "/terms" },
+    { "title": "Privacy Policy", "link": "/privacy" },
+    { "title": "Cookie Policy", "link": "/cookies" }
+  ],
+  "socialLinks": [
+    { "title": "LinkedIn", "link": "https://www.linkedin.com/" },
+    { "title": "X", "link": "https://x.com/" }
+  ],
+  "hero": {
+    "headline": "Unified Advertising Platform Built for CTV",
+    "subheadline": "We empower brands, agencies, and streaming publishers to reach precision audiences and maximize revenue across Connected TV (CTV) and dynamic video environments.",
+    "primaryCta": { "label": "Launch Campaign", "href": "/advertisers" },
+    "secondaryCta": { "label": "Monetize Supply", "href": "/publishers" }
+  },
+  "about": {
+    "text": "Mira Media provides a high-performance programmatic bridge connecting high-yield streaming publishers directly with global buy-side demand. By combining transparent OpenRTB routing, low-overhead VAST bridging, and real-time invalid traffic filtering, we streamline video ad monetization without platform complexity.",
+    "highlightWords": [
+      "programmatic bridge",
+      "transparent OpenRTB routing",
+      "without platform complexity"
+    ]
+  },
+  "stats": [
+    {
+      "label": "monthly video impressions across global streaming",
+      "value": "1.5B+",
+      "label2": "Delivered across premium CTV and FAST environments"
+    },
+    {
+      "label": "active programmatic and DSP endpoints connected",
+      "value": "200+",
+      "label2": "Direct demand paths for transparent CTV buying"
+    },
+    {
+      "label": "average viewability across Smart TV OS",
+      "value": "98.4%",
+      "label2": "Measurable impact on the big screen"
+    },
+    {
+      "label": "ultra-low latency routing SLA",
+      "value": "<15ms",
+      "label2": "OpenRTB and VAST transactions engineered for speed"
+    }
+  ],
+  "solutions": {
+    "eyebrow": "CORE SOLUTIONS",
+    "headlineLines": ["WHAT YOU GET", "WHEN SUPPLY", "MEETS"],
+    "typewriterWords": ["Demand.", "Transparency."],
+    "items": [
+      {
+        "title": "For Advertisers",
+        "kicker": "Demand path",
+        "image": "/images/mira/mira-advertisers.jpg",
+        "description": "Own the big screen. Reach targeted households on premier streaming networks with complete channel transparency, measurable performance, and fraud-free bid streams.",
+        "items": [
+          "Direct CTV & OEM Inventory",
+          "100% App & Bundle Transparency",
+          "Pre-bid IVT Filtering",
+          "Curated PMP Deals",
+          "Regional Packaging",
+          "Measurable Viewability"
+        ],
+        "href": "/advertisers"
+      },
+      {
+        "title": "For Publishers",
+        "kicker": "Supply path",
+        "image": "/images/mira/mira-publishers.jpg",
+        "description": "Turn streaming video into a maximum-yield growth engine. Connect FAST channels and streaming apps to global demand via low-latency S2S OpenRTB and SSAI-ready VAST tags.",
+        "items": [
+          "Ultra-Low Latency Routing",
+          "Yield & Floor Optimization",
+          "SSAI & Ad Podding Ready",
+          "Flexible Payouts",
+          "OpenRTB 2.5 / 3.0",
+          "VAST 2.0 – 4.2"
+        ],
+        "href": "/publishers"
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "CTV ECOSYSTEM",
+    "devices": [
+      "Roku",
+      "Amazon Fire TV",
+      "Apple TV",
+      "Android TV",
+      "Samsung Tizen",
+      "LG webOS",
+      "OpenRTB 2.5",
+      "OpenRTB 3.0"
+    ],
+    "trust": ["Pixalate", "HUMAN", "IAB Tech Lab", "sellers.json"]
+  },
+  "ecosystem": {
+    "eyebrow": "CONNECTED TV",
+    "headline": "Premium inventory. Clean paths.",
+    "cards": [
+      { "label": "Roku", "col": 0, "top": "59%", "speed": 0.8, "image": "/images/mira/mira-ecosystem-1.jpg" },
+      { "label": "Fire TV", "col": 1, "top": "3%", "speed": 0.9, "image": "/images/mira/mira-ecosystem-2.jpg" },
+      { "label": "Apple TV", "col": 1, "top": "99%", "speed": 1.12, "image": "/images/mira/mira-ecosystem-3.jpg" },
+      { "label": "Android TV", "col": 2, "top": "55%", "speed": 1.5, "image": "/images/mira/mira-ecosystem-4.jpg" },
+      { "label": "Samsung", "col": 2, "top": "150%", "speed": 1.28, "image": "/images/mira/mira-advertisers.jpg" },
+      { "label": "LG webOS", "col": 3, "top": "85%", "speed": 0.9, "image": "/images/mira/mira-publishers.jpg" },
+      { "label": "OpenRTB", "col": 4, "top": "35%", "speed": 1.1, "image": "/images/mira/mira-ecosystem-2.jpg" },
+      { "label": "VAST", "col": 4, "top": "120%", "speed": 0.96, "image": "/images/mira/mira-ecosystem-1.jpg" },
+      { "label": "SSAI", "col": 5, "top": "75%", "speed": 1.0, "image": "/images/mira/mira-ecosystem-3.jpg" }
+    ]
+  },
+  "copyright": "© 2026 Mira Media. All rights reserved."
+}

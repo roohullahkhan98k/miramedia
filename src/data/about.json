@@ -1,0 +1,23 @@
+{
+  "eyebrow": "About Us",
+  "headline": "Driving Transparency in Programmatic CTV",
+  "subheadline": "Building cleaner, faster, and more efficient connections between video supply and programmatic demand.",
+  "mission": {
+    "title": "Our Mission",
+    "body": "At Mira Media, we believe programmatic video advertising should be transparent, fast, and free of middleman bloat. We act as a lean supply-mediation network, providing direct technology bridges between high-quality streaming environments and the world's leading programmatic buyers."
+  },
+  "principles": [
+    {
+      "title": "Clean Supply Paths",
+      "body": "We eliminate unnecessary intermediaries to ensure publishers retain maximum yield while buyers get clear inventory origin tracking."
+    },
+    {
+      "title": "Technical Performance",
+      "body": "Our infrastructure is engineered for speed, offering low-latency VAST routing and OpenRTB 2.5/3.0 protocol execution."
+    },
+    {
+      "title": "Strict Compliance",
+      "body": "Fully supporting IAB standards including sellers.json and app-ads.txt to maintain verified trust across the ecosystem."
+    }
+  ]
+}

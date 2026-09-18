@@ -1,0 +1,21 @@
+{
+  "eyebrow": "Brand Safety & Compliance",
+  "headline": "Supply-Path Transparency for Demand Partners",
+  "subheadline": "sellers.json lets buyers verify where inventory originates — so if traffic comes from publisher XYZ, demand partners can see that clearly across the supply chain.",
+  "cta": { "label": "View sellers.json", "href": "/sellers.json" },
+  "sections": [
+    {
+      "title": "What is sellers.json?",
+      "body": "sellers.json is an IAB Tech Lab standard hosted at the root of our domain. It is the public ledger counterpart to publisher app-ads.txt files, allowing DSPs and programmatic buyers to verify the entities selling or mediating ad inventory."
+    },
+    {
+      "title": "Supply chain visibility",
+      "body": "When Mira Media mediates traffic from a publisher, demand partners should be able to identify that publisher in the supply path. This file is how we publish that transparency — aligning publisher identity with advertiser trust."
+    },
+    {
+      "title": "Anti-IVT & standards",
+      "body": "We support pre-filtered invalid traffic controls and IAB-aligned compliance practices so buyers receive cleaner CTV bid streams with verified origin tracking."
+    }
+  ],
+  "trustPartners": ["Pixalate", "HUMAN / WhiteOps", "IAB Tech Lab"]
+}
