@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import { useMotionValueEvent, useScroll, motion } from "motion/react";
+import { useMotionValueEvent, useScroll, motion, AnimatePresence } from "motion/react";
 import { cn } from "@/lib/utils";
 
 export const StickyScroll = ({
@@ -8,13 +8,14 @@ export const StickyScroll = ({
   contentClassName,
   tone = "ice",
 }) => {
-  const [activeCard, setActiveCard] = React.useState(0);
+  const [activeCard, setActiveCard] = useState(0);
   const ref = useRef(null);
-  const { scrollYProgress } = useScroll({
-    container: ref,
-    offset: ["start start", "end start"],
-  });
   const cardLength = content.length;
+
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start center", "end center"],
+  });
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
     const cardsBreakpoints = content.map((_, index) => index / cardLength);
@@ -58,46 +59,67 @@ export const StickyScroll = ({
     setBackgroundGradient(linearGradients[activeCard % linearGradients.length]);
   }, [activeCard, tone]);
 
+  const active = content[activeCard] ?? content[0];
+  const trackMinHeight = `${Math.max(cardLength, 2) * 75}vh`;
+
   return (
-    <motion.div
-      animate={{
-        backgroundColor: backgroundColors[activeCard % backgroundColors.length],
-      }}
-      className="relative flex h-[30rem] justify-center space-x-10 overflow-y-auto rounded-2xl border border-white/10 p-6 md:p-10"
+    <div
       ref={ref}
+      className="relative w-full"
+      style={{ minHeight: trackMinHeight }}
     >
-      <div className="relative flex items-start px-2 md:px-4">
-        <div className="max-w-2xl">
-          {content.map((item, index) => (
-            <div key={item.title + index} className="my-16 md:my-20">
-              <motion.h2
-                initial={{ opacity: 0 }}
-                animate={{ opacity: activeCard === index ? 1 : 0.3 }}
-                className="font-krisha text-2xl uppercase text-slate-100 md:text-3xl"
-              >
-                {item.title}
-              </motion.h2>
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: activeCard === index ? 1 : 0.3 }}
-                className="mt-6 max-w-sm text-sm leading-relaxed text-slate-300 md:text-base"
-              >
-                {item.description}
-              </motion.p>
-            </div>
-          ))}
-          <div className="h-40" />
-        </div>
-      </div>
-      <div
-        style={{ background: backgroundGradient }}
-        className={cn(
-          "sticky top-10 hidden h-60 w-80 overflow-hidden rounded-xl lg:block",
-          contentClassName,
-        )}
+      <motion.div
+        animate={{
+          backgroundColor:
+            backgroundColors[activeCard % backgroundColors.length],
+        }}
+        className="sticky top-24 flex min-h-[22rem] items-center justify-center gap-10 overflow-hidden rounded-2xl border border-white/10 p-6 md:top-28 md:min-h-[26rem] md:p-10"
       >
-        {content[activeCard]?.content ?? null}
-      </div>
-    </motion.div>
+        <div className="relative w-full max-w-2xl px-2 md:px-4">
+          <p className="mb-4 text-[10px] uppercase tracking-[0.35em] text-white/35">
+            {String(activeCard + 1).padStart(2, "0")} /{" "}
+            {String(cardLength).padStart(2, "0")}
+          </p>
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={active?.title ?? activeCard}
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }}
+              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <h2 className="font-krisha text-2xl uppercase text-slate-100 md:text-4xl">
+                {active?.title}
+              </h2>
+              <p className="mt-5 max-w-md text-sm leading-relaxed text-slate-300 md:text-base">
+                {active?.description}
+              </p>
+            </motion.div>
+          </AnimatePresence>
+
+          <div className="mt-8 flex gap-2">
+            {content.map((_, i) => (
+              <div
+                key={i}
+                className={cn(
+                  "h-1 flex-1 rounded-full transition-colors duration-300",
+                  i === activeCard ? "bg-[#7eb8d4]" : "bg-white/15",
+                )}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div
+          style={{ background: backgroundGradient }}
+          className={cn(
+            "hidden h-60 w-80 shrink-0 overflow-hidden rounded-xl lg:block",
+            contentClassName,
+          )}
+        >
+          {active?.content ?? null}
+        </div>
+      </motion.div>
+    </div>
   );
 };
