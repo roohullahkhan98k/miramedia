@@ -391,36 +391,31 @@ const FullscreenMenu = ({ isOpen, setIsOpen, menuLinks, pathname }) => {
                     © 2026 All Rights Reserved
                   </div>
 
-                  {/* SOCIAL ICONS IN ROUNDED SQUARES */}
-                  <div className="flex items-center justify-center gap-3 order-2 md:order-2">
-                    {site.socialLinks.map((social) => (
-                      <a
-                        key={social.title}
-                        href={social.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={social.title}
-                        className="group flex items-center justify-center size-10 rounded-xl border border-white/10 bg-white/5 transition-all duration-300 hover:bg-white hover:text-black hover:border-white"
-                      >
-                        <span className="size-5 flex items-center justify-center">
-                          <FaLinkedinIn />
-                        </span>
-                      </a>
-                    ))}
+                  {/* SOCIAL ICONS — only when URLs exist */}
+                  <div className="order-2 flex items-center justify-center gap-3 md:order-2">
+                    {site.socialLinks?.length > 0
+                      ? site.socialLinks.map((social) => (
+                          <a
+                            key={social.title}
+                            href={social.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={social.title}
+                            className="group flex size-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 transition-all duration-300 hover:border-white hover:bg-white hover:text-black"
+                          >
+                            <span className="flex size-5 items-center justify-center">
+                              <FaLinkedinIn />
+                            </span>
+                          </a>
+                        ))
+                      : null}
                   </div>
 
                   {/* EMAIL */}
-                  <div className="order-1 md:order-3 flex flex-col md:flex-row items-center md:justify-self-end gap-2 md:gap-5">
-                    <Link href="/sellers.json" onClick={() => setIsOpen(false)}>
-                      <LinkHover
-                        text="sellers.json"
-                        className="opacity-60 cursor-pointer"
-                        arrowClassName="size-[17px]"
-                      />
-                    </Link>
+                  <div className="order-1 flex flex-col items-center gap-2 md:order-3 md:flex-row md:justify-self-end md:gap-5">
                     <a href={`mailto:${site.email}`}>
                       <LinkHover
-                        className="opacity-60 cursor-pointer"
+                        className="cursor-pointer opacity-60"
                         text={site.email}
                         arrowClassName="size-[17px]"
                       />

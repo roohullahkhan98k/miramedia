@@ -34,7 +34,7 @@
       { "label": "VAST", "detail": "2.0 – 4.2" },
       { "label": "VMAP", "detail": "Dynamic pods" },
       { "label": "SSAI", "detail": "Broadcast-ready" },
-      { "label": "sellers.json", "detail": "IAB path clarity" },
+      { "label": "Supply path", "detail": "IAB transparency" },
       { "label": "IVT filter", "detail": "Pre-bid quality" }
     ]
   }

@@ -20,18 +20,14 @@
   ],
   "footerResources": [
     { "title": "Technology", "link": "/technology" },
-    { "title": "Brand Safety", "link": "/brand-safety" },
-    { "title": "sellers.json", "link": "/sellers.json" }
+    { "title": "Brand Safety", "link": "/brand-safety" }
   ],
   "legalLinks": [
     { "title": "Terms of Service", "link": "/terms" },
     { "title": "Privacy Policy", "link": "/privacy" },
     { "title": "Cookie Policy", "link": "/cookies" }
   ],
-  "socialLinks": [
-    { "title": "LinkedIn", "link": "https://www.linkedin.com/" },
-    { "title": "X", "link": "https://x.com/" }
-  ],
+  "socialLinks": [],
   "hero": {
     "headline": "Unified Advertising Platform Built for CTV",
     "subheadline": "We empower brands, agencies, and streaming publishers to reach precision audiences and maximize revenue across Connected TV (CTV) and dynamic video environments.",
@@ -117,7 +113,7 @@
       "OpenRTB 2.5",
       "OpenRTB 3.0"
     ],
-    "trust": ["Pixalate", "HUMAN", "IAB Tech Lab", "sellers.json"]
+    "trust": ["Pixalate", "HUMAN", "IAB Tech Lab"]
   },
   "ecosystem": {
     "eyebrow": "CONNECTED TV",
