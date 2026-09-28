@@ -1,8 +1,9 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, PlayIcon } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { motion } from "motion/react";
 import { useSplash } from "@/components/layout/Splash/SplashContext";
 import HeroText from "./HeroText";
@@ -35,23 +36,14 @@ const HomeHero = () => {
           className="relative aspect-video overflow-hidden rounded-2xl bg-neutral-900 md:col-span-5 lg:col-span-4"
           {...fadeUp(1.0, splashDone)}
         >
-          <video
-            src="/videos/herovideo.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="absolute inset-0 h-full w-full object-cover"
+          <Image
+            src="/images/mira/mira-hero-ctv.jpg"
+            alt="Mira Media CTV — OpenRTB bidstream and transparent value"
+            fill
+            priority
+            sizes="(min-width: 768px) 40vw, 100vw"
+            className="object-cover"
           />
-          <div className="absolute inset-0 flex items-center justify-center bg-black/35">
-            <span className="rounded-lg bg-primary p-2.5">
-              <PlayIcon
-                className="size-6 text-black"
-                strokeWidth={2.5}
-                fill="currentColor"
-              />
-            </span>
-          </div>
         </motion.div>
 
         <div className="flex flex-col gap-6 md:col-span-7 md:items-end lg:col-span-8">

@@ -39,11 +39,11 @@
     "secondaryCta": { "label": "Monetize Supply", "href": "/publishers" }
   },
   "about": {
-    "text": "Mira Media provides a high-performance programmatic bridge connecting high-yield streaming publishers directly with global buy-side demand. By combining transparent OpenRTB routing, low-overhead VAST bridging, and real-time invalid traffic filtering, we streamline video ad monetization without platform complexity.",
+    "text": "Mira Media is a unified, end-to-end CTV platform that seamlessly connects every step of the advertising journey, providing businesses with cutting-edge technological solutions to grow their brand through video.",
     "highlightWords": [
-      "programmatic bridge",
-      "transparent OpenRTB routing",
-      "without platform complexity"
+      "unified, end-to-end CTV platform",
+      "advertising journey",
+      "grow their brand through video"
     ]
   },
   "stats": [
