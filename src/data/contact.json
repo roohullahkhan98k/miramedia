@@ -2,7 +2,7 @@
   "eyebrow": "Contact",
   "headline": "Partner with Mira Media",
   "subheadline": "Get in touch with our team to onboard your supply or request programmatic demand endpoints.",
-  "email": "partners@miramedia.com",
+  "email": "Office@mira-media.com",
   "roles": [
     { "id": "supply", "label": "Publisher / Supply" },
     { "id": "demand", "label": "Advertiser / DSP" }
