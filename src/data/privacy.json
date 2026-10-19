@@ -1,0 +1,166 @@
+{
+  "title": "Privacy Policy",
+  "sections": [
+    {
+      "heading": "INTRODUCTION",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "This Privacy Policy (together with the Terms of Use and any other documents referred to on it, hereinafter the \"Policy\") informs you about the details of the processing of personal data you transmit, upload or otherwise make available during your use of the Website (www.mira-media.co, \"You\" or \"User\" and \"Website\", respectively) or which You provide Us through such use."
+        },
+        {
+          "type": "p",
+          "text": "In this Policy, \"MIRA MEDIA\" or \"We\" or \"Us\" will mean Mira Media. If You are a user located in the European Economic Area (\"EEA\") or if you intend to transmit or upload data concerning EEA residents, please carefully note the information in this Policy on your rights under the 2016/679 EU General Data Protection Regulation (\"GDPR\")."
+        },
+        {
+          "type": "p",
+          "text": "MIRA MEDIA recognizes the importance of keeping Your information secure and will ensure that the collection, use and sharing of Personal Information will be conducted in accordance with the terms of this Policy."
+        },
+        {
+          "type": "p",
+          "text": "This Policy may be updated from time to time if and when our privacy practice changes; each version will apply to information collected while it was in place. You are advised to consult this Privacy Policy regularly for any changes."
+        },
+        {
+          "type": "p",
+          "text": "In this Policy, anything that appears in a masculine form shall also mean the feminine form and vice versa."
+        },
+        {
+          "type": "p",
+          "text": "All Capitalized terms used but not defined herein shall have the meanings given to such terms in the Terms of Use."
+        }
+      ]
+    },
+    {
+      "heading": "INFORMATION COLLECTION AND USE",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MIRA MEDIA may collect, receive, retain and process the following information (\"Personal Information\"):"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Information that You provide Us when you contact us through the Website, which may include your first and last name, address, email address, phone number, etc.;",
+            "Device and app information—your device's type and model, system language, the device's operating system (such as Android or iOS), carrier name, browsers installed on the device (such as Chrome or Safari), IP address, and identifiers assigned to your device, such as its iOS Identifier for Advertising (IDFA), Android Advertising ID, or other types of unique device identifiers (a number uniquely allocated to your device by your device manufacturer);",
+            "Technical information, such as your computer's IP address, operating system, type of browser, screen resolution, browser and keyboard language, the User's 'click-stream' and activities on the Website, the period of time the User visited the Services and related time stamps, the website from which you were linked to ours, the time and date of your visit, your searching history, the websites to which you were linked through the Website, and your activities in the Website;",
+            "Information about the use of the Website, such as how often users visit the Website, what pages they visit when they do so, and what other websites they used prior to coming to the Website (including by collection the IP address assigned to you on the date you visit the Website);",
+            "Ad information—the online ads and personalized content we have served (or attempted to serve) to You. It includes how many times an ad has been served to you, what page the ad appeared on, whether you viewed, clicked on or otherwise interacted with the ad, ad engagement history and whether you visited the advertiser's website, downloaded an app or purchased the product or service advertised. In addition, certain advertisers may also collect the precise location of your device (using GPS signals, device sensors, Wi-Fi access points, Bluetooth signals, Beacons signals and cell tower ids that can be used to derive or estimate precise location, or other geo-location data), when location services have been enabled by the End-User (you typically have to choose to turn on device-based location services). Any such collection is carried out by that advertiser under its own privacy policy; MIRA MEDIA does not receive or retain precise location data, and processes approximate location only, as described under \"United States State Privacy Rights\" below."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "MIRA MEDIA's main objective in storing and processing Your Personal Information, as described in this Privacy Policy, is to provide You with access to our Website and to allow you to use our services and to perform our obligations to You. We may also process some of Your information to support and fulfil our legitimate business interests, such as self-study and internal statistics, and to allow Us to comply with legal and contractual obligations or defense against legal claims."
+        },
+        {
+          "type": "p",
+          "text": "In addition, MIRA MEDIA may use the Personal Information collected in the following manners (We will treat all the aforementioned and the following as \"Purpose\"):"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Recognize you when you return to use the Website. For that reason, We also use cookies. Cookies are small text files that You load onto Your device when You use our Website and store the Personal Information. We use our own cookies in order to identify and recognize You when You return to use the Website and provide You with an easier automated login or browsing experience.",
+            "Estimate amount of users logging to the Website and usage pattern.",
+            "To conduct research and for further development of MIRA MEDIA's services in order to provide You with a better, more intuitive experience, including by way of development of new features.",
+            "Monitor the use of the Website and administrate the Website, for MIRA MEDIA's technical administration including for security reasons.",
+            "Allow our Publishers to promote advertising, apps and content in their Properties, and to allow advertisers to bid on Publishers' inventory through our OpenRTB mediation workflows.",
+            "Enable our partners to infer interests and serve ads and personalized content to End-Users based on their behavior, app activity and inferred interests.",
+            "Measure ad performance, report to advertisers when and how End-Users have viewed or clicked on their ads, or visited their website, and to report to Publishers when and how ads were shown on their properties and were clicked on.",
+            "Allow our Publishers to analyze their applications (for this purpose, we use aggregated and anonymous benchmark data) and prevent End-Users from seeing the same ad too many times.",
+            "Identify invalid or incentivized clicks (or ad queries) and protect us and our partners from fraudulent behavior.",
+            "Enforce our policies, resolve disputes and communicate with you."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "MIRA MEDIA stores the Personal Information while you are interacting with the Website and using our services. MIRA MEDIA may also store said information for a period of time after you no longer use the Website if the information is necessary for the purposes for which it was collected or to satisfy legal requirements. These purposes typically include business, legal, or tax purposes."
+        },
+        {
+          "type": "p",
+          "text": "All information provided by you or collected by MIRA MEDIA is stored on MIRA MEDIA's secure servers. Unfortunately, the transmission of information via the internet is not completely secure. Although MIRA MEDIA will make reasonable commercial effort to protect your personal data, MIRA MEDIA cannot guarantee the complete security of your data transmitted to the Website and therefore any transmission is at your own risk. Once MIRA MEDIA has received your information, MIRA MEDIA will use strict procedures and security features to try to prevent unauthorized access."
+        }
+      ]
+    },
+    {
+      "heading": "DISCLOSURE OF INFORMATION",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MIRA MEDIA may disclose your Personal Information to third parties or governmental authorities, under the following obligations:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "MIRA MEDIA is engaged with certain selected third parties which provide services to MIRA MEDIA, including, cellular or communication networks, hosting, database storage and maintenance and process services.",
+            "In addition, and in order to provide You with the Services, MIRA MEDIA may be engaged with third parties who provide services similar to that provided by MIRA MEDIA to You, including supply and demand partners in our programmatic mediation ecosystem.",
+            "MIRA MEDIA may share Your information with these third parties, but only to the extent necessary for the Purpose unless otherwise permitted by law, and only pursuant to binding contractual obligations requiring such third parties to maintain the privacy and security of Your information.",
+            "It is hereby clarified that some of the Personal Information collected and processed by these third parties is collected directly by them (and not transferred by us). We provide these third parties with access to the Website and Services and enable them to collect and use the Personal Information in order to provide You with excellent Services. In case You object to the process of any of these third parties of Your Personal Information, You can contact Us and ask Us to stop granting them access to Your Personal Information. Please note that in such case some or all of the Services may not be available to You.",
+            "When We believe in good faith that disclosure is necessary to protect our rights, protect Your safety or the safety of others, investigate fraud, or respond to a government request (including court order, search warrant).",
+            "MIRA MEDIA may disclose the Personal Information in the event where MIRA MEDIA shall transfer in any way the operation of the Services to any third party and should it merge with another entity or merge the operations of the Services with the activity of a third party, provided that this corporation will assume adherence to this Privacy Policy.",
+            "MIRA MEDIA may disclose the Personal Information where You are performing any act in the Services which constitutes a violation of any law or the Terms of Use."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "SECURITY",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The security of Your Personal Information is important to us. MIRA MEDIA employs administrative, contractual, physical and electronic measures and security safeguards designed to protect Your information from unauthorized access. To protect the confidentiality of Personal Information, You must keep any account credentials confidential and not disclose them to any other person. If other people have access to Your email or device, they may be able to obtain access to your information. However, MIRA MEDIA cannot warrant the security of any information that You provide. There is no guarantee that data may not be accessed, disclosed, altered, or destroyed by breach of any of MIRA MEDIA's physical, technical, or managerial safeguards. If You have any questions about the security of the Services, You can contact Us using the Contact Info detailed below."
+        }
+      ]
+    },
+    {
+      "heading": "YOUR RIGHTS WITH RESPECT TO THE PERSONAL INFORMATION",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MIRA MEDIA offers You the ability to control and manage the Personal Information MIRA MEDIA has about You. You are entitled to ask MIRA MEDIA to:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Withdraw the consent – You may, at any time, withdraw your consent and no longer permit MIRA MEDIA to use and keep Your Personal Information. Please note that by doing so, Your experience of the Services may be affected and You may not be able to use all or part of the Services that MIRA MEDIA offers.",
+            "Delete Data – You can ask MIRA MEDIA to erase or delete all or some of the Personal Information (e.g., if it is no longer necessary to provide the Services).",
+            "Change or Correct Data – You can ask MIRA MEDIA to edit some of the Personal Information by asking MIRA MEDIA to change, update or fix Your Personal Information in certain cases, particularly if it is inaccurate.",
+            "Object to, or Limit or Restrict, Use of Personal Information – You can ask MIRA MEDIA to stop using all or some of your Personal Information (e.g., if MIRA MEDIA has no legal right to keep using it) or to limit MIRA MEDIA's use of it (e.g., if the Personal Information is inaccurate or unlawfully held). Further, you have the right, for reasons arising from your particular situation, to object at any time to the processing of your personal data, which is processed on the basis of our legitimate interests; this also applies to any profiling based on this processing. If you object, we will no longer process your personal data in the future unless we can prove compelling grounds for the processing that outweigh your interests, rights and freedoms or the processing serves to assert, exercise, or defend legal claims. You also have the right to object at any point in time to the processing of your data for direct marketing purposes. If you exercise your right to objection, we will no longer use your Personal Information for sending you any marketing communications.",
+            "Right to Access and/or Take Your Data – You can ask MIRA MEDIA for a copy of Personal Information and can ask for a copy of Personal Information You provided in machine-readable form."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In case any of the foregoing actions is not available directly, You can contact MIRA MEDIA at our Contact Info and ask Us to perform it. You acknowledge that by asking MIRA MEDIA to not store or process the Personal Information or by performing any of the foregoing actions on its own, You may prevent Us from providing You with the Services, and be prevented from using all or part of the Services. You hereby waive any claim or demand You might have against MIRA MEDIA in this matter."
+        },
+        {
+          "type": "p",
+          "text": "If You believe that the processing of the Personal Information is not complying with the law applicable to You or MIRA MEDIA's response has not satisfied You, You may lodge a complaint with the relevant supervisory authority."
+        }
+      ]
+    },
+    {
+      "heading": "LAWFUL BASES FOR PROCESSING",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MIRA MEDIA has lawful bases to collect, use and share data about each user of the Website. The primary lawful basis is based on the engagement of You with Us, in order for MIRA MEDIA to provide You with the Services and to be able to contact You from time to time, and our legitimate business interests in operating our mediation network safely and effectively."
+        }
+      ]
+    },
+    {
+      "heading": "CONTACT US",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If you have any questions, comments, or requests regarding this Privacy Policy, please contact us at:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Website: www.mira-media.co",
+            "Email: office@mira-media.co"
+          ]
+        }
+      ]
+    }
+  ]
+}
