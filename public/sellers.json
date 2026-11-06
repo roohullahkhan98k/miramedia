@@ -1,0 +1,14 @@
+{
+  "contact_email": "office@mira-media.co",
+  "contact_address": "Mira-Media, Hazetiem st2, AbuGosh, Jerusalem, IL",
+  "version": "1.0",
+  "sellers": [
+    {
+      "seller_id": "2027",
+      "name": "NetRange",
+      "seller_type": "PUBLISHER",
+      "domain": "netrange.com",
+      "is_passthrough": 0
+    }
+  ]
+}

@@ -20,7 +20,8 @@
   ],
   "footerResources": [
     { "title": "Technology", "link": "/technology" },
-    { "title": "Brand Safety", "link": "/brand-safety" }
+    { "title": "Brand Safety", "link": "/brand-safety" },
+    { "title": "sellers.json", "link": "/sellers.json" }
   ],
   "legalLinks": [
     { "title": "Terms of Use", "link": "/terms" },
