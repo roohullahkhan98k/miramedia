@@ -9,6 +9,13 @@
       "seller_type": "PUBLISHER",
       "domain": "netrange.com",
       "is_passthrough": 0
+    },
+    {
+      "seller_id": "17701c90ccf5374c",
+      "name": "Kelltan Ads LLC",
+      "seller_type": "INTERMEDIARY",
+      "domain": "kelltanadsltd.com",
+      "is_passthrough": 0
     }
   ]
 }
